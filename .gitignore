@@ -1,0 +1,17 @@
+data/
+datasets/
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.npy
+*.npz
+*.pkl
+*.h5
+wandb/
+runs/
+checkpoints/
