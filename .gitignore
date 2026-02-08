@@ -1,13 +1,19 @@
+# =========================
+# Datasets (DO NOT COMMIT)
+# =========================
 data/
 datasets/
+cifar-10-batches-py/
+cifar-100-python/
+
+# =========================
+# Training artifacts
+# =========================
 __pycache__/
 *.pyc
 *.pth
 *.pt
 *.ckpt
-*.zip
-*.tar
-*.tar.gz
 *.npy
 *.npz
 *.pkl
@@ -15,3 +21,32 @@ __pycache__/
 wandb/
 runs/
 checkpoints/
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+
+# =========================
+# Environment
+# =========================
+.env
+
+# =========================
+# Shell scripts (KEEP)
+# =========================
+!*.sh
+
+# =========================
+# IMPORTANT:
+# Allow dataset download scripts
+# inside cs231n/datasets folders
+# =========================
+
+# Allow Git to enter the datasets directories
+!**/cs231n/datasets/
+
+# Allow shell scripts inside them
+!**/cs231n/datasets/*.sh
